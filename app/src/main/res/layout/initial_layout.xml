@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:background="#ffffcc"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="大学生成绩分析"
+        android:textColor="#9966CC"
+        android:layout_marginBottom="120dp"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始分析"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#6699CC"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:id="@+id/startanalysize"
+        >
+    </Button>
+</LinearLayout>
